@@ -2,6 +2,7 @@ package Report_Generation_App.ReportGenerationApp.Request;
 
 import lombok.Setter;
 import lombok.Getter;
+import org.springframework.format.annotation.DateTimeFormat;
 
 import java.time.LocalDate;
 @Getter
@@ -11,8 +12,8 @@ public class SearchRequest {
     private String planName;
     private String planStatus;
     private String gender;
-    private LocalDate startDate;
-    private LocalDate endDate;
+    private String startDate;
+    private String endDate;
 
     public String getPlanName() {
         return planName;
@@ -38,19 +39,19 @@ public class SearchRequest {
         this.gender = gender;
     }
 
-    public LocalDate getStartDate() {
+    public String getStartDate() {
         return startDate;
     }
 
-    public void setStartDate(LocalDate startDate) {
+    public void setStartDate(String startDate) {
         this.startDate = startDate;
     }
 
-    public LocalDate getEndDate() {
+    public String getEndDate() {
         return endDate;
     }
 
-    public void setEndDate(LocalDate endDate) {
+    public void setEndDate(String endDate) {
         this.endDate = endDate;
     }
 }
