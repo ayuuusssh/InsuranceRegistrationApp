@@ -54,7 +54,7 @@
       </tr>
       <tr>
       <td><a href="/" class="btn btn-secondary">Reset</a></td>
-      <td><input type="submit" value="search" class="btn btn-primary"/></td>
+      <td><input type="submit" value="Search" class="btn btn-primary"/></td>
       </tr>
     </table>
 
@@ -96,8 +96,8 @@
    </table>
    <hr>
 
-   Export : <a href="">Excel</a>
-            <a href="">Pdf</a>
+   Export : <a href="excel">Excel</a>
+            <a href="pdf">Pdf</a>
 </div>
 
 
